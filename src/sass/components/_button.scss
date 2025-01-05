@@ -1,0 +1,30 @@
+.button {
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+
+  &--primary {
+    background-color: $secondary-color;
+    color: $primary-color;
+
+    &:hover {
+      // background-color: darken($primary-color, 10%);
+      background-color: $primary-color;
+      color: $secondary-color;
+    }
+  }
+
+  &--secondary {
+    border: 2px solid $secondary-color;
+    color: $secondary-color;
+    background-color: transparent;
+
+    &:hover {
+      background-color: transparent;
+      color: $secondary-color;
+      border: none;
+    }
+  }
+}

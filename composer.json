@@ -1,0 +1,17 @@
+{
+    "name": "mac/bee-lite",
+    "autoload": {
+        "psr-4": {
+            "Mac\\BeeLite\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "seyi",
+            "email": "seyi@fatbeehive.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.18"
+    }
+}

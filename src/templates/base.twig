@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="dist/styles.css"> <!-- Add compiled CSS -->
+</head>
+<body>
+    {% include 'navbar.twig' %}
+    {% include 'hero.twig' %}
+    {% include 'marquee.twig' %}
+    {% include 'about.twig' %}
+    {% include 'stats.twig' %}
+    {# {% include 'footer.twig' %} #}
+
+    <script src="dist/main.js"></script> <!-- Add bundled JS -->
+</body>
+</html>

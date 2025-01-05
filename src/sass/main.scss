@@ -1,0 +1,65 @@
+// Core styles
+@import 'core/variables';
+@import 'core/mixins';
+@import 'core/colors';
+@import 'core/fonts';
+
+// @import 'core/reset';
+// @import 'core/base';
+
+
+
+
+// Import block styles
+@import 'blocks/navbar';
+@import 'blocks/hero';
+@import 'blocks/about';
+@import 'blocks/stats';
+// @import 'blocks/footer';
+
+// Components
+@import 'components/button';
+@import 'components/marquee';
+
+// Add global styles here
+
+html {
+    overflow-y: scroll;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+
+
+
+
+
+// // Helpers
+// @import 'helpers/helpers';
+// @import 'helpers/functions';
+// @import 'helpers/placeholders';
+
+// // Components
+// @import 'components/button';
+// @import 'components/navbar';
+// @import 'components/modal';
+
+// // Templates
+// @import 'templates/home';
+// @import 'templates/about';
+// @import 'templates/contact';

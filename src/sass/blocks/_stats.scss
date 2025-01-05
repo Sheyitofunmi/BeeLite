@@ -1,0 +1,121 @@
+// _stats.scss
+.stats {
+  $this: &;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  gap: 3rem;
+
+  &__item {
+    text-align: start;
+    flex: 1;
+    min-width: 0;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__value {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+
+    flex-wrap: nowrap;
+  }
+
+  &__currency {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #1e293b;
+    line-height: 1;
+  }
+
+  &__number {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #1e293b;
+    line-height: 1;
+  }
+
+  &__unit {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: $primary-color;
+    line-height: 1;
+  }
+  
+
+  &__plus {
+    font-size: 2rem;
+    font-weight: 700;
+    color: $primary-color;
+    margin-left: 0.25rem;
+    line-height: 1;
+  }
+
+  &__label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+
+    span {
+      color: #64748b;
+      font-size: 1.125rem;
+      line-height: 1.2;
+      font-weight: 400;
+    }
+  }
+}
+
+.cap {
+    color: $secondary-color;
+  }
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .stats {
+    padding: 2rem 1rem;
+    gap: 1rem;
+
+    &__currency,
+    &__number,
+    &__unit {
+      font-size: 2rem;
+    }
+
+    &__plus {
+      font-size: 1.25rem;
+    }
+
+    &__label span {
+      font-size: 0.875rem;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .stats {
+    gap: 0.5rem;
+
+    &__currency,
+    &__number,
+    &__unit {
+      font-size: 1rem;
+    }
+
+    &__plus {
+      font-size: 1rem;
+    }
+
+    &__label span {
+      font-size: 0.5rem;
+    }
+
+    &__item {
+      gap: 0.5rem;
+    }
+  }
+}

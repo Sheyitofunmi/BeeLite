@@ -1,0 +1,27 @@
+// Primary Colors
+$primary-color: #B2FBA4; // Green (for buttons, highlights)
+$primary-hover: #5EB24F; // Darker green for hover states
+
+// Secondary Colors
+$secondary-color: #243342; // Dark Green (for buttons, or accents)
+$secondary-hover: #FDD668; // Darker yellow
+
+// Neutral Colors
+$background-color: #FFFDF5; // Light cream background
+$text-color: #181A14; // Dark text color
+$muted-text: #616161; // Muted gray for secondary text
+$border-color: #E6E6E6; // Light gray for borders
+
+// Accent Colors
+$accent-color: #FF5A5F; // Red (used sparingly for calls to action)
+$link-color: #0056B3; // Blue for links
+$link-hover: #003C82; // Darker blue for link hover
+
+// Gradients
+$button-gradient: linear-gradient(90deg, #6ACB5E 0%, #5EB24F 100%);
+
+// Shadows
+$box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
+
+// Overlay
+$overlay-color: rgba(0, 0, 0, 0.5); // For dark overlays on images
