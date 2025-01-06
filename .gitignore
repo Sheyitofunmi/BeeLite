@@ -1,0 +1,49 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment files
+.env
+.env.local
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+.cache/
+.tmp/
+
+# PHP dependencies (if using Composer)
+vendor/
+
+# Vercel configuration
+.vercel/
+
+
+# Node.js dependencies
+node_modules/
+
+# Composer dependencies (can be excluded if you're using `composer install` on the server)
+vendor/
+
+# Webpack output
+dist/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Logs and debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

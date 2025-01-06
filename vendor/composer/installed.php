@@ -3,7 +3,7 @@
         'name' => 'mac/bee-lite',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '3fb96519d088a1559cee927a6192d056243ca193',
+        'reference' => '4c28d96915375f0750fedb16e77627b08d1b0032',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'mac/bee-lite' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '3fb96519d088a1559cee927a6192d056243ca193',
+            'reference' => '4c28d96915375f0750fedb16e77627b08d1b0032',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
